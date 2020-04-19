@@ -1,0 +1,10 @@
+CREATE TABLE `NewTable` (
+`ssex`  varchar(20) NOT NULL ,
+`sname`  varchar(90) NOT NULL ,
+`sno`  varchar(30)  NOT NULL
+);
+
+
+INSERT INTO student VALUES ('001', 'KangKang', 'M ');
+INSERT INTO student VALUES ('002', 'Mike', 'M ');
+INSERT INTO student VALUES ('003', 'Jane', 'F ');

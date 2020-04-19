@@ -11,11 +11,15 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="startspring" target="1.8" />
+      <module name="springboot-mybatis" target="1.7" />
+      <module name="springboot-Mybatis" target="1.8" />
+      <module name="startspring" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-Mybatis" options="-parameters" />
+      <module name="springboot-mybatis" options="-parameters" />
       <module name="startspring" options="-parameters" />
     </option>
   </component>
